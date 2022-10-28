@@ -1,0 +1,7 @@
+﻿  Curio.cpp
+  Menu.cpp
+  Generowanie kodu...
+LINK : warning LNK4075: zignorowano opcję „/INCREMENTAL” z powodu określenia opcji „/PROFILE”
+Button.obj : warning LNK4075: zignorowano opcję „/EDITANDCONTINUE” z powodu określenia opcji „/OPT:REF”
+     Trwa tworzenie biblioteki C:\dev\Curio\x64\Debug\Curio.lib i obiektu C:\dev\Curio\x64\Debug\Curio.exp
+  Curio.vcxproj -> C:\dev\Curio\x64\Debug\Curio.exe

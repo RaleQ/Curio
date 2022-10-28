@@ -1,0 +1,48 @@
+﻿  Menu.cpp
+C:\dev\Curio\modules\Logging\include\spdlog\fmt\bundled\core.h(1728,7): error C2338: Cannot format an argument. To make type T formattable provide a formatter<T> specialization: https://fmt.dev/latest/api.html#udt
+C:\dev\Curio\modules\Logging\include\spdlog\fmt\bundled\core.h(1849): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „fmt::v8::detail::value<Context> fmt::v8::detail::make_arg<true,Context,fmt::v8::detail::type::custom_type,const T&,0>(const sf::String&)” funkcji szablon
+          with
+          [
+              Context=fmt::v8::format_context,
+              T=sf::String
+          ]
+C:\dev\Curio\modules\Logging\include\spdlog\fmt\bundled\core.h(1871): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „fmt::v8::format_arg_store<fmt::v8::format_context,sf::String>::format_arg_store<const T&>(const T &)” funkcji szablon
+          with
+          [
+              T=sf::String
+          ]
+C:\dev\Curio\modules\Logging\include\spdlog\fmt\bundled\core.h(1872): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „fmt::v8::format_arg_store<fmt::v8::format_context,sf::String>::format_arg_store<const T&>(const T &)” funkcji szablon
+          with
+          [
+              T=sf::String
+          ]
+C:\dev\Curio\modules\Logging\include\spdlog\logger.h(361): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „fmt::v8::format_arg_store<fmt::v8::format_context,sf::String> fmt::v8::make_format_args<fmt::v8::format_context,const T&>(const T &)” funkcji szablon
+          with
+          [
+              T=sf::String
+          ]
+C:\dev\Curio\modules\Logging\include\spdlog\logger.h(89): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „void spdlog::logger::log_<const T&>(spdlog::source_loc,spdlog::level::level_enum,spdlog::string_view_t,const T &)” funkcji szablon
+          with
+          [
+              T=sf::String
+          ]
+C:\dev\Curio\modules\Logging\include\spdlog\logger.h(109): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „void spdlog::logger::log<const T&>(spdlog::source_loc,spdlog::level::level_enum,fmt::v8::basic_format_string<char,const T &>,const T &)” funkcji szablon
+          with
+          [
+              T=sf::String
+          ]
+C:\dev\Curio\modules\Logging\include\spdlog\logger.h(102): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „void spdlog::logger::log<T,0>(spdlog::source_loc,spdlog::level::level_enum,const T &)” funkcji szablon
+          with
+          [
+              T=sf::String
+          ]
+C:\dev\Curio\modules\Logging\include\spdlog\logger.h(267): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „void spdlog::logger::log<T>(spdlog::level::level_enum,const T &)” funkcji szablon
+          with
+          [
+              T=sf::String
+          ]
+C:\dev\Curio\Curio\Menu.cpp(38): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „void spdlog::logger::trace<sf::String>(const T &)” funkcji szablon
+          with
+          [
+              T=sf::String
+          ]
